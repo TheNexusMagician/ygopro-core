@@ -8,9 +8,11 @@
 #ifndef INTERPRETER_H_
 #define INTERPRETER_H_
 
+extern "C" {
 #include "lua.h"
-#include "lauxlib.h"
 #include "lualib.h"
+#include "lauxlib.h"
+}
 #include "common.h"
 #include <unordered_map>
 #include <list>

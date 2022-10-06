@@ -394,6 +394,7 @@ struct card_sort {
 #define DUEL_TAG_MODE			0x20
 #define DUEL_SIMPLE_AI			0x40
 #define DUEL_RETURN_DECK_TOP	0x80
+#define DUEL_PLAYER_2_FIRST		0x100
 
 //Activity
 #define ACTIVITY_SUMMON			1
